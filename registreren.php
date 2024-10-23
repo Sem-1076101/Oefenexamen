@@ -17,69 +17,50 @@ require 'config/config.php';
 </head>
 <body>
 
-<!--        form aanmaken voor de password hash van de docent-->
-<!--<form action="" method="post">-->
-<!---->
-<!--    <div>-->
-<!--        <input type="text" name="voornaamveld">-->
-<!--    </div>-->
-<!--    <div>-->
-<!--        <input type="text" name="achternaamveld">-->
-<!--    </div>-->
-<!--    <dvi>-->
-<!--        <input type="email" name="emailveld">-->
-<!--    </dvi>-->
-<!--    <div>-->
-<!--        <input type="password" name="wwveld">-->
-<!--    </div>-->
-<!--    <div>-->
-<!--        <button type="submit" name="submitDocent">Versturen</button>-->
-<!--    </div>-->
-<!--</form>-->
-<!---->
 
-<form action="" method="post">
-
-    <div>
-        <input type="text" name="voornaamveld" placeholder="Voornaam" required>
-    </div>
-    <div>
-        <input type="text" name="achternaamveld" placeholder="Achternaam" required>
-    </div>
-    <div>
-        <input type="email" name="emailveld" placeholder="E-mail" required>
-    </div>
-    <div>
-        <input type="password" name="wwveld" placeholder="Wachtwoord" required>
-    </div>
-    <div>
-        <button type="submit" name="submitDocent">Versturen</button>
-    </div>
-</form>
 <?php
 
-if(isset($_POST['submitDocent'])) {
+// form en post voor aanmaken docent
+// <form action="" method="post">
 
-   $voornaam = $_POST['voornaamveld'];
-   $achternaam =  $_POST['achternaamveld'];
-   $email = $_POST['emailveld'];
-   $wachtwoord = $_POST['wwveld'];
+// <div>
+//     <input type="text" name="voornaamveld" placeholder="Voornaam" required>
+// </div>
+// <div>
+//     <input type="text" name="achternaamveld" placeholder="Achternaam" required>
+// </div>
+// <div>
+//     <input type="email" name="emailveld" placeholder="E-mail" required>
+// </div>
+// <div>
+//     <input type="password" name="wwveld" placeholder="Wachtwoord" required>
+// </div>
+// <div>
+//     <button type="submit" name="submitDocent">Versturen</button>
+// </div>
+// </form>
+// if(isset($_POST['submitDocent'])) {
 
-   $hashWW = password_hash($wachtwoord, PASSWORD_DEFAULT);
-   $level = 0;
+//    $voornaam = $_POST['voornaamveld'];
+//    $achternaam =  $_POST['achternaamveld'];
+//    $email = $_POST['emailveld'];
+//    $wachtwoord = $_POST['wwveld'];
 
-   $stmt = $conn->prepare("INSERT INTO accounts_docenten (voornaam, achternaam, email, wachtwoord, level) VALUES (?, ?, ?, ?, ?)");
-   $stmt->bind_param('ssssi', $voornaam, $achternaam, $email, $hashWW, $level);
-   $stmt->execute();
+//    $hashWW = password_hash($wachtwoord, PASSWORD_DEFAULT);
+//    $level = 0;
 
-   if($stmt) {
-       echo 'docent toegevoegd';
+//    $stmt = $conn->prepare("INSERT INTO accounts_docenten (voornaam, achternaam, email, wachtwoord, level) VALUES (?, ?, ?, ?, ?)");
+//    $stmt->bind_param('ssssi', $voornaam, $achternaam, $email, $hashWW, $level);
+//    $stmt->execute();
 
-   }
-   else {
-       echo 'docent mislukt';
-   }
-}
+//    if($stmt) {
+//        echo 'docent toegevoegd';
+
+//    }
+//    else {
+//        echo 'docent mislukt';
+//    }
+// }
 
 
 
