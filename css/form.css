@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins');
+
+
+input[type=text], input[type=email], input[type=number],input[type=password] {
+    padding: 7px;
+    border: 1px solid #C3CEDA;
+    border-radius: 3px;
+    background: #ffffff;
+    box-shadow: 5px 5px 15px rgba(0 0 0 / 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 15px;
+}

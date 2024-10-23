@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 850px;
+}
+
+.inner-container {
+    text-align: center;
+}
+
+.titel {
+    width: 100%;
+    height: 80px;
+    background: #071330;
+    color: #fff;
+    padding: 20px;
+}
+
+.info {
+    background: #D4F1F4;
+    width: 890px;
+    padding-top: 10px;
+}
+
+/*.form-zoeken {*/
+/*    padding-top: 25px;*/
+/*    padding-bottom: 25px;*/
+/*}*/
+
+/*.form-zoeken>div {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.form-zoeken input {*/
+/*    border-radius: 10px;*/
+/*    padding: 7px;*/
+/*    border: 1px solid #C3CEDA;*/
+/*}*/
+
+.zoek-btn {
+    background: #0C4160;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+    border: 0;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    font-family: Poppins;
+}
+
+.zoek-btn:hover {
+    background: #738FA7;
+    transition: .3s;
+}
+
+.student-data {
+    padding-top: 25px;
+}
+
+.student-titel {
+    background: #071330;
+    color: #fff;
+    width: 850px;
+    padding: 20px;
+}
+
+.container-info-student {
+    background: #D4F1F4;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+
+.info-student {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 2%;
+}
+
+.links {
+    text-align: center;
+}
+
+.links p, .rechts p {
+    padding: 10px;
+    background: #fff;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.rechts {
+    text-align: center;
+}
+
+.student-form {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 50px;
+}
+
+.student-form>div {
+    margin-bottom: 25px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 550px;
+    background: #fff;
+    padding: 25px;
+    margin: auto;
+}
+
+.grid-layout>div {
+    margin: auto;
+}
+

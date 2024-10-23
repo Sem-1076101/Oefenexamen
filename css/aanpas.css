@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+}
+
+.inner-container {
+    background: #D4F1F4;
+    padding: 0;
+}
+
+form {
+    padding: 25px;
+    margin: auto;
+    max-width: 350px;
+}
+
+.titel {
+    width: 850px;
+    background: #071330;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+
+/*.aanpas-stu-gegevens {*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    padding: 25px;*/
+/*}*/
+
+.submit-form {
+    text-align: center;
+    color: #000;
+    border: 0;
+    background: #fff;
+    padding: 12px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.submit-form:hover {
+    background: #0C4160;
+    color: #fff;
+    transition: .3s;
+}
+
+.terug-a {
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    background: #fff;
+}
+
+.terug-a:hover {
+    transition: .3s;
+    background: #0C4160;
+    color: #fff;
+}

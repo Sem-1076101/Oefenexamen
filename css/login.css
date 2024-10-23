@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    min-height: auto;
+}
+
+.left {
+    background: #D4F1F4;
+    padding: 25px;
+
+}
+
+
+.inlog-form button {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background:  #071330;
+    transition: .3s;
+    cursor: pointer;
+    border: 0;
+    font-size: 16px;
+}
+
+.inlog-form button:hover {
+    transition: .3s;
+    background: #189AB4;
+    color: #fff;
+}
+
+.right {
+    background: #071330;
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+.right a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    background: #D4F1F4;
+    transition: .3s;
+}
+
+.right a:hover {
+    transition: .3s;
+    background: #0C4160;
+    color: #fff;
+}
+
+.container-a {
+    margin-top: 100px;
+}
+
+.titel {
+    text-align: center;
+}
+
+.inlogfout {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.inlogfout p {
+    font-size: 15px;
+    color: red;
+    font-weight: 500;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+}
+
+/*registratie form*/
+
+.inner-container {
+    background: #D4F1F4;
+    padding: 50px;
+
+}
+
+.btn-registratie, .terug-a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background:  #071330;
+    transition: .3s;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-registratie {
+    font-size: 18px;
+}
+
+.terug-a {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.btn-registratie:hover, .terug-a:hover {
+    transition: .3s;
+    background: #189AB4;
+}
+

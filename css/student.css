@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.inner-container {
+    width: 900px;
+}
+
+.titel-student {
+    width: 850px;
+    background: #071330;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.container-info-student {
+    background: #D4F1F4;
+    width: 100%;
+    padding-bottom: 50px;
+
+}
+
+.info-student {
+    display: grid;
+    grid-template-columns: 54% 46%;
+    padding-top: 25px;
+    width: 900px;
+}
+
+.links {
+text-align: center;
+}
+
+.links p  {
+    padding: 10px;
+    background: #fff;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.rechts p {
+    padding: 10px;
+    background: #fff;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.rechts {
+    text-align: center;
+}
+
+
+.info-form {
+    background: #D4F1F4;
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.info-form>div {
+    margin-bottom: 10px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 550px;
+    background: #fff;
+    padding: 25px;
+    margin: auto;
+}
+
+.grid-layout>div {
+    margin: auto;
+}
+
+.aanpas-btn {
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
+
+.aanpas-btn a:hover {
+    background: #0C4160;
+    color: #fff;
+    transition: .3s;
+
+}
+
+.aanpas-btn a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 12px;
+    transition: .3s;
+}
+
+/*form*/
+
+.form-enquete {
+    background: #D4F1F4;
+    padding: 25px;
+    width: 850px;
+    margin-bottom: 50px;
+}
+
+input[type=text], input[type=email], input[type=number],input[type=password], textarea {
+    padding: 7px;
+    border: 1px solid #C3CEDA;
+    /*border-radius: 3px;*/
+    background: #fff;
+    width: 230px;
+    box-shadow: 3px 3px 12px rgba(0 0 0 / 0.15);
+}
+
+select {
+    padding: 7px;
+    border: 1px solid #C3CEDA;
+    /*border-radius: 3px;*/
+    background: #fff;
+    width: 245px;
+    box-shadow: 3px 3px 12px rgba(0 0 0 / 0.15);
+}
+
+.select-box  {
+    background: #D4F1F4;
+    padding: 10px;
+}
+
+form label {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+.submit-form {
+    text-align: center;
+    color: #000;
+    border: 0;
+    background: #fff;
+    padding: 12px;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.submit-form:hover {
+    background: #0C4160;
+    color: #fff;
+    transition: .3s;
+}
+
+.terug-a {
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    background: #fff;
+}
+
+.terug-a:hover {
+    transition: .3s;
+    background: #0C4160;
+    color: #fff;
+}
